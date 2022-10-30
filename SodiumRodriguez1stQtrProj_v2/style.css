@@ -1,0 +1,138 @@
+*{
+	margin: 0px;
+	padding:0px;
+	font-family: Baskerville;
+	font-size: 120%
+}
+.bg-image{
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(https://andersonair.ca/wp-content/uploads/2014/02/clouds-blue-sky-blurred-background-backdrop.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+nav{
+	display:flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 100px;
+}
+nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 4px 12px;
+	position: relative;
+}
+.nav-links ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+.nav-links ul li::after{
+	content: ' ';
+	width: 0%;
+	height: 2px;
+	background: #D3FFB9;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+} 
+.nav-links ul li:hover::after{
+	width: 100%;
+}
+.text-box{
+	width: 90%;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	margin-top: 30px;
+}
+.text box h1{
+	font-size: 100px;
+}
+.text-box p{
+	margin: 10px 0 40px;
+	font-size: 25px;
+	color: white;
+	margin-top: 40px;
+}
+.causes {
+	background-color: #A7826C;
+}
+.smoke{
+	float: left;
+	padding: 3%;
+	width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.smoke-txt{
+	text-align: center;
+    padding: 10px;
+	font-size: 20px;
+}
+#smokey{
+	position: absolute;
+	z-index:2;
+	top: 710px;
+	left: 210px;
+	border-radius: 50%
+}
+
+.deforestation{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3%;
+	width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.deforestation-txt{
+	text-align: center;
+    padding: 10px;
+	font-size: 20px;
+}
+#trees{
+	position: absolute;
+	z-index:3;
+	top: 710px;
+	left: 660px;
+	border-radius: 50%
+}
+.overpopulation{
+	position: absolute;
+	top: 600px;
+	margin-left: 900px;
+	padding: 3%;
+	width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.overpopulation-txt{
+	text-align: center;
+    padding: 10px;
+	font-size: 20px;
+}
+#pigs{
+	position: absolute;
+	z-index:4;
+	top: 710px;
+	left: 1110px;
+	border-radius: 50%
+}
+.cpr {
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+}
